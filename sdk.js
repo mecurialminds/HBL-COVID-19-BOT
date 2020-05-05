@@ -4099,7 +4099,7 @@ function WebChatbotListener() {
 	/** Print response in chat bubble. */
 	this.bubble = false;
 	/** Initial message to send to the bot. */
-	this.greetingMessage = null;
+	this.greetingMessage = "get greetings";
 	/** Initial message to display from the bot. (it is normally better to set a greeting in the bot instead). */
 	this.greeting = null;
 	/** Loading message to display. */
